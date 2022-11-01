@@ -12,3 +12,15 @@ p {
   border: solid 1px black;
   border-radius: 20px
 }
+
+.grid {
+  display: grid;
+  padding: 16px;
+  grid-gap: 16px;
+}
+
+
+.grid_item {
+  bakcground-color: red;
+  border: 10px solid black;
+}
