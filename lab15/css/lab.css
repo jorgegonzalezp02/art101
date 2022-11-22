@@ -1,0 +1,53 @@
+
+
+
+[class*="col"]{
+  border-radius: 25px;
+  border:5px solid black;
+  padding: 10px;
+}
+body {
+  background-color: #2e6930;
+  font-family: "Lucida Console", monospace;
+  color: #e3cfcf;
+}
+.underline{
+  text-decoration: underline;
+}
+.classname {
+  color: #e3cfcf;
+  text-align: center;
+  font-size: 24px;
+
+  border-radius: 25px;
+  padding: 0px;
+  margin: 0px;
+  border: 5px outset black;
+}
+.nav-bar {
+
+  display:flex;
+  text-align: center;
+  font-size: 16px;
+  color: #e3cfcf;
+
+  border-radius: 25px;
+  color: #e3cfcf;
+  padding: 20px;
+  margin: 15px 0px 15px 0px;
+  border: 5px outset black;
+}
+
+a {
+  color: #e3cfcf;
+  text-decoration: none;
+}
+.header {
+  color: #e3cfcf;
+  font-size: 24px;
+  text-decoration: underline;
+}
+.text {
+  font-size: 16px;
+  color: #e3cfcf;
+}
