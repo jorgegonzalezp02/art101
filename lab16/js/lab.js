@@ -1,12 +1,27 @@
 /**
   *Author: Jorge Gonzalez
-  *Date: 11/14/2022
+  *Date: 11/28/2022
 **/
-
-function FizzBuzz() {
-  for (var num=1; num<=200; num++) {
-    if (num % 105 == 0) {
-      console.log();
-    }
+var comicObj = "https://xkcd.com/614/info.0.json"
+$.ajax({
+  url: comicObj,
+  type: "GET",
+  data: {
+    //asondvoan
+  },
+  dataType: "json",
+  success: function(data) {
+    console.log(data)
+    var title = data.title;
+    console.log("Title: ", title);
+    var image = data.img;
+    var alt = data.alt;
+    console.log("Alt: ", alt);
+    var html = `<div id="imageblock">
+    <h2>${title}</h2>
+    <img src="${image}" title="${alt}"><br>`
+  },
+  failure: function(jgXHR, textStatus, errorThrown) {
+    console.log("Error: ", textStatus, errorThrown);
   }
-}
+})

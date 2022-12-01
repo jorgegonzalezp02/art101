@@ -1,0 +1,17 @@
+[class*="col"]{
+  border-radius: 30px;
+  border:7px solid black;
+  padding: 10px;
+}
+
+body {
+  background-color: #2e6930;
+  font-family: "Comic Sans MS", monospace;
+  color: #f4fdff;
+}
+
+#Psudocode {
+  border-radius: 30px;
+  border:7px solid black;
+  padding: 10px;
+}

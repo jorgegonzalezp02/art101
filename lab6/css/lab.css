@@ -1,0 +1,15 @@
+body {
+  background-color: #2e6930;
+  font-family: "Comic Sans MS", monospace;
+  color: #f4fdff;
+}
+
+#redtruck {
+  width: 400px;
+  float: right;
+}
+
+#greycar {
+  width:400px;
+  float: right;
+}
