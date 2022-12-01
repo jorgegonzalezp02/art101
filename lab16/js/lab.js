@@ -1,5 +1,5 @@
 /**
-  *Author: Jorge Gonzalez
+  *Author: Jorge Gonzalez, Micah Mahelona
   *Date: 11/28/2022
 **/
 var comicObj = "https://xkcd.com/614/info.0.json"
@@ -7,7 +7,6 @@ $.ajax({
   url: comicObj,
   type: "GET",
   data: {
-    //asondvoan
     //id:
     //api_key:
   },
