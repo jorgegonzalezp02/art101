@@ -8,20 +8,22 @@ $.ajax({
   type: "GET",
   data: {
     //asondvoan
+    //id:
+    //api_key:
   },
   dataType: "json",
   success: function(data) {
     console.log(data)
     var title = data.title;
     console.log("Title: ", title);
-    var image = data.img;
+    var imageURL = data.img;
     var alt = data.alt;
     console.log("Alt: ", alt);
     var html = `<div id="imageblock">
-    <h2>${title}</h2>
-    <img src="${image}" title="${alt}"><br>`
-  },
-  failure: function(jgXHR, textStatus, errorThrown) {
-    console.log("Error: ", textStatus, errorThrown);
-  }
-})
+      <h3>${title}</h3>
+      <img src="${imageURL}" title="${alt}"></br>
+    </div>`
+    //console.log("My new html: \n", html);
+    $("#output").html(html);
+    }
+  })
